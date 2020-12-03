@@ -198,7 +198,6 @@
     "redux-devtools-extension": "^2.13.8",
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.2.0",
-    "request": "^2.79.0",
     "request-promise-native": "^1.0.9",
     "shortid": "^2.2.16",
     "slugify": "^1.4.6",
