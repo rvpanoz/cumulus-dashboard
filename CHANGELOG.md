@@ -34,6 +34,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Changed
 
+- **CUMULUS-2286**
+  - Removed deprecated package `request` to fix vulnerability
+
 - **CUMULUS-2251**
   - Add the `Granule Actions` button
 
