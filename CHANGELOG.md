@@ -17,7 +17,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - **CUMULUS-NONE**
   - Upgrade Webpack to version 5
   - Various package updates related to Webpack upgrade
-  - Upgrade cypress to 9.2.1
+  - Upgrade cypress to 9.3.1
 - **CUMULUS-2721**
   - Remove table selectors and granule actions from all reconciliation report tables since they will not work on these tables due to the nature of the backend
 - **CUMULUS-2722**
