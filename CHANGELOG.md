@@ -8,8 +8,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [Unreleased]
 
 ### Changed
+- **CUMULUS-NONE**
+  - Upgrade cypress to 9.4.1
+
 - **CUMULUS-2843**
-  Replaces lodash/startCase with custom function used to capitalize titles from schema.
+  - Replaces lodash/startCase with custom function used to capitalize titles from schema.
 
 ## [v9.0.0] - 2022-02-01
 
@@ -29,7 +32,6 @@ This version of the dashboard requires Cumulus API v10.0.0
 - **CUMULUS-NONE**
   - Upgrade Webpack to version 5
   - Various package updates related to Webpack upgrade
-  - Upgrade cypress to 9.3.1
 - **CUMULUS-2721**
   - Remove table selectors and granule actions from all reconciliation report tables since they will not work on these tables due to the nature of the backend
 - **CUMULUS-2722**
