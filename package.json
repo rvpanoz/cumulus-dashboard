@@ -29,7 +29,7 @@
     "lint": "eslint . --ext .js",
     "lint-fix": "eslint --fix . --ext .js",
     "cypress": "LOCALSTACK_HOST=localhost LOCAL_ES_HOST=localhost CYPRESS_TESTING=true NODE_ENV=test cypress open",
-    "cypress-ci": "LOCALSTACK_HOST=localhost LOCAL_ES_HOST=localhost CYPRESS_TESTING=true NODE_ENV=test /cumulus-dashboard/node_modules/.bin/cypress run --spec 'cypress/integration/*' --config video=false",
+    "cypress-ci": "ls /cumulus-dashboard/node_modules/.bin && LOCALSTACK_HOST=localhost LOCAL_ES_HOST=localhost CYPRESS_TESTING=true NODE_ENV=test /cumulus-dashboard/node_modules/.bin/cypress run --spec 'cypress/integration/*' --config video=false",
     "test": "npm run lint && ava && ava --config ava-conditional.config.cjs",
     "test-unit-only": "ava && ava --config ava-conditional.config.cjs",
     "seed-database": "LOCALSTACK_HOST=localhost LOCAL_ES_HOST=localhost NODE_ENV=test PG_HOST=localhost PG_USER=postgres PG_PASSWORD=password PG_DATABASE=postgres node ./localAPI/runSeedDatabase.js",
