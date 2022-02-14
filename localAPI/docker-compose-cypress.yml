@@ -10,6 +10,8 @@ services:
     volumes:
       - ../:/cumulus-dashboard
     environment:
+      - HOME=./cache
+      - CYPRESS_CACHE_FOLDER=./cache
       - CYPRESS_TESTING=true
       - NODE_ENV=test
       - LOCALSTACK_HOST=localhost
